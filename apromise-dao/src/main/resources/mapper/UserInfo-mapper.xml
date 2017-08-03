@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="com.laoge.apromise.dao.mapper.UserInfoMapper">
+    <resultMap id="userInfo" type="com.laoge.apromise.dao.entity.UserInfoPojo">
+        <result column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="description" property="description"/>
+        <result column="stime" property="stime"/>
+    </resultMap>
+
+    <!-- 根据ID查询数据 -->
+    <select id="queryUserInfo" parameterType="com.laoge.apromise.dao.entity.UserInfoPojo" resultMap="userInfo">
+        select id,title,description,stime from t_tables where id=#{id}
+    </select>
+</mapper>

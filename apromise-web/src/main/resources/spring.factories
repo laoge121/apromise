@@ -1,0 +1,4 @@
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.laoge.apromise.web.listener.ApplicationLoadListener

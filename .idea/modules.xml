@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apromise.iml" filepath="$PROJECT_DIR$/apromise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apromise-api/apromise-api.iml" filepath="$PROJECT_DIR$/apromise-api/apromise-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apromise-common/apromise-common.iml" filepath="$PROJECT_DIR$/apromise-common/apromise-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apromise-dao/apromise-dao.iml" filepath="$PROJECT_DIR$/apromise-dao/apromise-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apromise-service/apromise-service.iml" filepath="$PROJECT_DIR$/apromise-service/apromise-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apromise-web/apromise-web.iml" filepath="$PROJECT_DIR$/apromise-web/apromise-web.iml" />
+    </modules>
+  </component>
+</project>
