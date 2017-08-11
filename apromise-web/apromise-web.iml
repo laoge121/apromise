@@ -27,7 +27,7 @@
     <orderEntry type="module" module-name="apromise-service" />
     <orderEntry type="module" module-name="apromise-api" />
     <orderEntry type="module" module-name="apromise-common" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot:1.5.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.3.RELEASE" level="project" />
     <orderEntry type="module" module-name="apromise-dao" />
