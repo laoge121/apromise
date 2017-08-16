@@ -112,7 +112,12 @@ public class ThreadPoolTest {
         list.add("dd");
         list.add("ee");
 
-        new ThreadPoolTest().executeAllList(list);
+        ThreadPoolTest threadPoolTest = new ThreadPoolTest();
+        threadPoolTest.executeAllList(list);
+
+
+        System.out.printf("2 * Runtime.getRuntime().availableProcessors()" + 2 * Runtime.getRuntime().availableProcessors());
+        threadPoolExecutor.shutdownNow();
     }
 
 }
