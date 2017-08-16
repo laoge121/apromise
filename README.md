@@ -1,1 +1,1 @@
-# apromise：springboot Object test。
+# apromise:spring boot object test.
